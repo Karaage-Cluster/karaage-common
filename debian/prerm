@@ -1,0 +1,8 @@
+#!/bin/bash
+
+rm -rf /var/cache/karaage/graphs/projects/*
+rm -rf /var/cache/karaage/graphs/trends/*
+rm -rf /var/cache/karaage/graphs/institutes/*
+rm -rf /var/cache/karaage/graphs/i_trends/*
+
+#DEBHELPER#
