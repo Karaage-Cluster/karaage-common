@@ -1,5 +1,11 @@
 karaage-common (1.0-1) testing; urgency=low
 
+  * Change package to non-native format.
+
+ -- Brian May <brian@vpac.org>  Mon, 19 Jul 2010 12:49:58 +1000
+
+karaage-common (1.0) testing; urgency=low
+
   * Initial release.
 
  -- Sam Morrison <sam@vpac.org>  Tue, 13 Jul 2010 15:06:52 +1000
