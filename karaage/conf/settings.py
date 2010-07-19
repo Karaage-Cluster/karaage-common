@@ -87,7 +87,7 @@ AUTHENTICATION_BACKENDS = (
     'placard.backends.LDAPBackend',
 )
 
-LDAP_ATTRS = 'kgadmin.conf.ldap_attrs'
+LDAP_ATTRS = 'karaage.conf.ldap_attrs'
 LDAP_PASSWD_SCHEME = 'md5-crypt'
 
 from os import uname
