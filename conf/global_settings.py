@@ -88,3 +88,9 @@ LOCAL_PBS_SERVERS = [
     'cluster1.example.com',
     'cluster2.example.com',
 ]
+
+# Enable REMOTE_USER auth
+#MIDDLEWARE_CLASSES += (
+#    ('karaage.middleware.auth.ApacheSiteLogin',)
+#)
+
