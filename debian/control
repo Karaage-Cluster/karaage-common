@@ -10,4 +10,6 @@ Architecture: all
 Homepage: http://trac.vpac.org/karaage/
 Depends: ${misc:Depends}, ${python:Depends}
 Description: Common files for Karaage
- This package contains the common files needed by karaage-admin and karaag- registration
+ Karaage is an open source collection of Django apps to manage a clusters.
+ This package contains the common files needed by karaage-admin and
+ karaage-registration.
