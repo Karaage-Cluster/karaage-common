@@ -1,5 +1,4 @@
 # Locally defined Karaage settings
-from karaage.conf.package import *
 
 ###
 ### Standard Django settings 
