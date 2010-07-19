@@ -42,16 +42,6 @@ def fullsplit(path, result=None):
 for scheme in INSTALL_SCHEMES.values():
     scheme['data'] = scheme['purelib']
 
-packages = [
-    'karaage.conf',
-]
-
-data_files = [
-    ('/etc/karaage', [
-        'conf/global_settings.py',
-        'conf/ldap_attrs.py' ]),
-]
-
 setup(
     name = "karaage-common",
     version = '1.0',
@@ -59,7 +49,5 @@ setup(
     author = 'Sam Morrison',
     author_email = 'sam@vpac.org',
     description = 'Common files for karaage',
-    packages = packages,
     cmdclass = cmdclasses,
-    data_files = data_files,
 )
