@@ -1,8 +1,14 @@
+karaage-common (1.1-1) stable; urgency=low
+
+  * New upstream version.
+
+ -- Brian May <bam@debian.org>  Mon, 19 Jul 2010 16:19:44 +1000
+
 karaage-common (1.0-1) testing; urgency=low
 
   * Change package to non-native format.
 
- -- Brian May <brian@vpac.org>  Mon, 19 Jul 2010 12:49:58 +1000
+ -- Brian May <bam@debian.org>  Mon, 19 Jul 2010 12:49:58 +1000
 
 karaage-common (1.0) testing; urgency=low
 
