@@ -1,3 +1,9 @@
+karaage-common (1.1.1-1) stable; urgency=low
+
+  * RPM post install fix
+
+ -- Sam Morrison <sam@vpac.org>  Mon, 28 Feb 2011 16:43:46 +1100
+
 karaage-common (1.1-1) stable; urgency=low
 
   * New upstream version.
