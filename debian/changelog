@@ -1,3 +1,9 @@
+karaage-common (1.1.2-1) stable; urgency=low
+
+  * Create tmp dir for matplotlib
+
+ -- Sam Morrison <sam@vpac.org>  Wed, 06 Apr 2011 13:08:48 +1000
+
 karaage-common (1.1.1-1) stable; urgency=low
 
   * RPM post install fix
