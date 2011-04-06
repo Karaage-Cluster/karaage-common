@@ -6,3 +6,5 @@ mkdir -p /var/cache/karaage/graphs/i_trends
 mkdir -p /var/cache/karaage/graphs/trends
 chown -R apache /var/cache/karaage/
 
+mkdir -p /var/www/.matplotlib
+chown -R apache /var/www/.matplotlib
