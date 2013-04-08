@@ -44,10 +44,10 @@ for scheme in INSTALL_SCHEMES.values():
 
 setup(
     name = "karaage-common",
-    version = '1.1.2',
+    version = '1.1.3',
     url = 'http://code.vpac.org/trac/karaage/',
-    author = 'Sam Morrison',
-    author_email = 'sam@vpac.org',
+    author = 'Brian May',
+    author_email = 'brian@vpac.org',
     description = 'Common files for karaage',
     cmdclass = cmdclasses,
 )

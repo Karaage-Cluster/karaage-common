@@ -1,3 +1,9 @@
+karaage-common (1.1.3-1) stable; urgency=low
+
+  * Create /var/www/.kgmatplotlib on install
+
+ -- Brian May <bam@debian.org>  Mon, 08 Apr 2013 10:30:31 +1000
+
 karaage-common (1.1.2-1) stable; urgency=low
 
   * Create tmp dir for matplotlib
