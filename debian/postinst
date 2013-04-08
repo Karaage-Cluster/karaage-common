@@ -7,7 +7,7 @@ then
              /var/cache/karaage/graphs/institutes \
              /var/cache/karaage/graphs/i_trends \
              /var/cache/karaage/graphs/trends \
-             /var/www/.matplotlib
+             /var/www/.kgmatplotlib
     do
         # only do something when no setting exists
         if ! dpkg-statoverride --list $i >/dev/null 2>&1
