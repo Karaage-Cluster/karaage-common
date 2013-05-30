@@ -1,10 +1,9 @@
 Source: karaage-common
 Section: python
 Priority: optional
-Maintainer: Sam Morrison <sam@vpac.org>
-Uploaders: Brian May <bam@debian.org>
-Build-Depends: debhelper (>=7.0.0), python (>= 2.4), python-support (>= 0.6), cdbs (>= 0.4.49)
-Standards-Version: 3.9.1
+Maintainer: Brian May <bam@debian.org>
+Build-Depends: debhelper (>=7.0.0), python (>= 2.6.6-3), cdbs (>= 0.4.90)
+Standards-Version: 3.9.3
 
 Package: karaage-common
 Architecture: all
