@@ -6,7 +6,8 @@ then
     for i in /var/cache/karaage/graphs/projects \
              /var/cache/karaage/graphs/institutes \
              /var/cache/karaage/graphs/i_trends \
-             /var/cache/karaage/graphs/trends
+             /var/cache/karaage/graphs/trends \
+             /var/cache/karaage/graphs/machines
     do
         if dpkg-statoverride --list $i >/dev/null 2>&1
         then
@@ -18,6 +19,7 @@ then
     rm -rf /var/cache/karaage/graphs/trends/*
     rm -rf /var/cache/karaage/graphs/institutes/*
     rm -rf /var/cache/karaage/graphs/i_trends/*
+    rm -rf /var/cache/karaage/graphs/machines/*
 fi
 
 #DEBHELPER#
