@@ -1,3 +1,9 @@
+karaage-common (1.1.3-5) unstable; urgency=low
+
+  * Fix broken breaks. Also matches backports.
+
+ -- Brian May <bam@debian.org>  Fri, 20 Sep 2013 11:53:56 +1000
+
 karaage-common (1.1.3-4) unstable; urgency=low
 
   * New and last release. Dummy package only.

@@ -9,6 +9,6 @@ Package: karaage-common
 Architecture: all
 Homepage: http://code.vpac.org/trac/karaage/
 Depends: ${misc:Depends}, ${python:Depends}
-Breaks: karaage (<< 2.7.7-2)
+Breaks: karaage (<= 2.7.7-1)
 Description: Common files for Karaage
  This is a dummy package and can be removed or purged.
